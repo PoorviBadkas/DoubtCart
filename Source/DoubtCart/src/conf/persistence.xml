@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ResourcesPU" transaction-type="JTA">
+    <jta-data-source>resources</jta-data-source>
+    <class>entity.Subscription</class>
+    <class>entity.Address</class>
+    <class>entity.Customer</class>
+    <class>Entity2.User</class>
+    <class>Entity2.Comments</class>
+    <class>Entity2.Resource</class>
+    <class>Entity2.Liketb</class>
+    <class>Entity2.Groups</class>
+    <class>Entity.Resource</class>
+    <class>Entity.Liketb</class>
+    <class>Entity.Comments</class>
+    <class>Entity.User</class>
+    <class>Entity.ResourceFiles</class>
+    <class>Entity.Groups</class>
+    <class>Entity.User_1</class>
+    <class>Entity.Liketb_1</class>
+    <class>Entity.ResourceFiles_1</class>
+    <class>Entity.Resource_1</class>
+    <class>Entity.Groups_1</class>
+    <class>Entity.Comments_1</class>
+    <class>Bean.Resource</class>
+    <class>Bean.ResourceFiles</class>
+    <class>Bean.User</class>
+    <class>Bean.Liketb</class>
+    <class>Bean.Groups</class>
+    <class>Bean.Comments</class>
+    <class>Entity.Tags</class>
+    <class>Entity.Answer</class>
+    <class>Entity.Doubtcomment</class>
+    <class>Entity.Badge</class>
+    <class>Entity.Doubt</class>
+    <class>Entity.Category</class>
+    <class>Bean.Category</class>
+    <class>Bean.Doubtcomment</class>
+    <class>Bean.Badge</class>
+    <class>Bean.Doubt</class>
+    <class>Bean.Tags</class>
+    <class>Bean.Answer</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
